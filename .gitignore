@@ -1,0 +1,6 @@
+*.jpg
+inputs/
+outputs/
+.venv/
+__pycache__
+emissions.csv

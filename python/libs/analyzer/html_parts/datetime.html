@@ -1,0 +1,45 @@
+<h2>%%COL_TITLE%% (<span class="font-monospace">%%COL_TYPE%%</span>)</h2>
+<div class="row justify-content-center">
+    %%GRAPH_HTML%%
+</div>
+<div class="row justify-content-center">
+    <div class="col-4">
+        <h3>Chiffres Clés</h3>
+        <div class="table-responsive">
+            <table class="table table-sm table-hover">
+                <tr>
+                    <th scope="row">Moyenne</th>
+                    <td class="font-monospace">%%DT_MEAN%%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Minimum</th>
+                    <td class="font-monospace">%%DT_MIN%%</td>
+                </tr>
+                <tr>
+                    <th scope="row">1er Quartile</th>
+                    <td class="font-monospace">%%DT_QT1%%</td>
+                </tr>
+                <tr>
+                    <th scope="row">2ème Quartile</th>
+                    <td class="font-monospace">%%DT_QT2%%</td>
+                </tr>
+                <tr>
+                    <th scope="row">3ème Quartile</th>
+                    <td class="font-monospace">%%DT_QT3%%</td>
+                </tr>
+                <tr>
+                    <th scope="row">Maximum</th>
+                    <td class="font-monospace">%%DT_MAX%%</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-4">
+        <h3>5 Valeurs les Plus Fréquentes</h3>
+        <div class="table-responsive">%%TOP5_TABLE%%</div>
+    </div>
+    <div class="col-4">
+        <h3>5 Valeurs les Moins Fréquentes</h3>
+        <div class="table-responsive">%%FLOP5_TABLE%%</div>
+    </div>
+</div>

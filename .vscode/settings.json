@@ -1,0 +1,37 @@
+{
+    "[yaml]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.autoIndent": "advanced",
+        "editor.defaultColorDecorators": "never",
+        "editor.insertSpaces": true,
+        "editor.quickSuggestions": {
+            "strings": "on"
+        },
+        "editor.tabSize": 2,
+        "prettier.tabWidth": 2
+    },
+    "editor.tabSize": 4,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "README.md": ".gitattributes, .gitignore, .gitlab-ci.yml, mkdocs.yml, .pylintrc, requirements.txt"
+    },
+    "files.exclude": {
+        ".venv": true,
+        "**/__init__.py": true,
+        "**/__pycache__": true,
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/Thumbs.db": true,
+        "**/Zone.sav": true,
+        "**/.gitlab": true,
+        "emissions.csv": true
+    },
+    "git.autofetch": true,
+    "git.autofetchPeriod": 180,
+    "prettier.tabWidth": 4,
+    "pylint.args": [
+        "--rcfile=.pylintrc"
+    ]
+}

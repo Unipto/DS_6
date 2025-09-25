@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/orange-helvetica.min.css" rel="stylesheet">
+    <link href="/css/boosted.min.css" rel="stylesheet"
+        integrity="sha384-Dg1JMmsMyxGWA26yEd/Wk3KTjzjp//GXdW4u4c+K/j6GYT5gsZoxBGK8Hq++sDbV" crossorigin="anonymous">
+    <script src="/js/plotly-3.1.0.min.js" charset="utf-8"></script>
+    <style>
+        .row>div:has(.plotly-graph-div) {
+            width: fit-content
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-xxl">
+        %%DESCRIBE%%
+        <p>%%ROW_COUNT%% lignes, %%COL_COUNT%% colonnes</p>
+        %%CONTENT%%
+    </div>
+
+    <script src="/js/boosted.bundle.min.js"></script>
+</body>
+
+</html>
